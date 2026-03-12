@@ -1,0 +1,18 @@
+/home/subham/miniconda3/lib/python3.13/site-packages/julia/core.py:715: FutureWarning: Accessing `Julia().<name>` to obtain Julia objects is deprecated.  Use `from julia import Main; Main.<name>` or `jl = Julia(); jl.eval('<name>')`.
+  warnings.warn(
+Initial-Plots.py:168: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  cmap = get_cmap('rainbow', 7)
+Initial-Plots.py:171: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed in 3.11. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap()`` or ``pyplot.get_cmap()`` instead.
+  colors = plt.cm.get_cmap('hsv', inpress)
+Traceback (most recent call last):
+  File "/home/subham/miniconda3/lib/python3.13/site-packages/julia/pseudo_python_cli.py", line 308, in main
+    python(**vars(ns))
+    ~~~~~~^^^^^^^^^^^^
+  File "/home/subham/miniconda3/lib/python3.13/site-packages/julia/pseudo_python_cli.py", line 59, in python
+    scope = runpy.run_path(script, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "Initial-Plots.py", line 2509, in <module>
+    raise ValueError(f"DEBUGGING GOING !!!!")
+ValueError: DEBUGGING GOING !!!!

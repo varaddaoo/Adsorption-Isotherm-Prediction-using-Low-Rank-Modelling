@@ -1,0 +1,20 @@
+/home/varad/anaconda3/lib/python3.9/site-packages/julia/core.py:715: FutureWarning: Accessing `Julia().<name>` to obtain Julia objects is deprecated.  Use `from julia import Main; Main.<name>` or `jl = Julia(); jl.eval('<name>')`.
+  warnings.warn(
+RUNM-18-02-2025-CoRE-2019-Ar.py:168: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  cmap = get_cmap('rainbow', 7)
+RUNM-18-02-2025-CoRE-2019-Ar.py:171: MatplotlibDeprecationWarning: The get_cmap function was deprecated in Matplotlib 3.7 and will be removed two minor releases later. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+  colors = plt.cm.get_cmap('hsv', inpress)
+Traceback (most recent call last):
+  File "/home/varad/anaconda3/lib/python3.9/site-packages/julia/pseudo_python_cli.py", line 308, in main
+    python(**vars(ns))
+  File "/home/varad/anaconda3/lib/python3.9/site-packages/julia/pseudo_python_cli.py", line 59, in python
+    scope = runpy.run_path(script, run_name="__main__")
+  File "/home/varad/anaconda3/lib/python3.9/runpy.py", line 288, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/varad/anaconda3/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/varad/anaconda3/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "RUNM-18-02-2025-CoRE-2019-Ar.py", line 2498, in <module>
+    raise ValueError(f"DEBUGGING GOING !!!!")
+ValueError: DEBUGGING GOING !!!!
